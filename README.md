@@ -19,6 +19,7 @@ It is not an official leaderboard. It is a living notebook of things that worked
 - [Benchmark methodology](docs/BENCHMARK_METHOD.md)
 - [Model scoreboard](docs/MODEL_SCOREBOARD.md)
 - [Community results](COMMUNITY_RESULTS.md)
+- [Blog-style survival guide](docs/DGX_SPARK_SURVIVAL_GUIDE.md)
 
 ## Published recipes
 
@@ -62,4 +63,3 @@ If enough people share results, this repo can become a practical map for single-
 ## License
 
 Apache-2.0.
-
