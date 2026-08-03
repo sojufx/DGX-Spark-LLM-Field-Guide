@@ -25,6 +25,7 @@ It is not an official leaderboard. It is a living notebook of things that worked
 
 | Recipe | Best use | Context | Notes |
 |---|---|---:|---|
+| [DeepSeek V4 Flash One-Spark Stable Serve](https://github.com/sojufx/DeepSeek-V4-Flash-One-Spark-Stable-Serve) | huge MoE / DeepSeek at home | 128K | DS4 native server, memory admission guard, watchdog, OpenAI-compatible proxy |
 | [Laguna S 2.1 DGX Spark Recipe](https://github.com/sojufx/Laguna-S-2.1-DGX-Spark-Recipe) | daily-driver long-context endpoint | 250K | stable memory profile, DFlash, prefix cache |
 | [Qwen3.6 35B NVFP4 DGX Spark Recipe](https://github.com/sojufx/Qwen3.6-35B-NVFP4-DGX-Spark-Recipe) | fast coding / agent workload | 262K | native vLLM 0.26, FP8 KV, DFlash K=7 |
 
