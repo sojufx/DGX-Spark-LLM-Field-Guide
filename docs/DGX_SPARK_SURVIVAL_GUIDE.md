@@ -203,6 +203,10 @@ Qwen3.6 35B NVFP4 on DGX Spark:
 
 https://github.com/sojufx/Qwen3.6-35B-NVFP4-DGX-Spark-Recipe
 
+Qwen3.5 122B-A10B DFlash on DGX Spark:
+
+https://github.com/sojufx/Qwen3.5-122B-A10B-DFlash-DGX-Spark-Recipe
+
 ## Share your results
 
 If you run a DGX Spark, share:
@@ -217,4 +221,3 @@ If you run a DGX Spark, share:
 - stability/OOM notes
 
 The more people publish reproducible configs, the less mystical Spark tuning becomes.
-

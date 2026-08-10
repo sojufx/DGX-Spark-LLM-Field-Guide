@@ -9,9 +9,9 @@ This is not a universal leaderboard. It is a practical “what would I actually 
 | DeepSeek V4 Flash IQ2XXS DS4 | huge MoE / tool-heavy reasoning experiments | 128K | slower raw decode, wild capability | keeper with guardrails |
 | Laguna S 2.1 NVFP4 | daily-driver long-context endpoint | 250K | steady | keeper |
 | Qwen3.6 35B-A3B NVFP4 | coding / agent throughput | 262K | fast aggregate | keeper |
+| Qwen3.5 122B-A10B NVFP4 | large Qwen MoE / concise agent experiments | 128K | surprisingly usable but heavy | experiment |
 | Qwen Coder Next NVFP4 | coding experiments | varies | very fast for active size | tool/reasoning quirks need care |
 | Qwen3.6 27B NVFP4 | lightweight experiments | high | slower than hoped on our setup | not production |
-| Qwen3.5 122B NVFP4 variants | large-model experiments | 128K | heavy | possible, not daily |
 
 ## Current recommended starting points
 
@@ -38,3 +38,11 @@ Use Qwen3.6 35B-A3B NVFP4 if you care about aggregate throughput and coding-agen
 Recipe:
 
 https://github.com/sojufx/Qwen3.6-35B-NVFP4-DGX-Spark-Recipe
+
+### Large Qwen MoE experiment
+
+Use Qwen3.5 122B-A10B NVFP4 if you want to test a larger Qwen MoE on a single Spark. It can be concise and useful in agent workflows, but it is heavier than Laguna and Qwen3.6 35B, so treat it as an experiment before making it daily production.
+
+Recipe:
+
+https://github.com/sojufx/Qwen3.5-122B-A10B-DFlash-DGX-Spark-Recipe
