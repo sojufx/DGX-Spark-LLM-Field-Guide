@@ -29,7 +29,8 @@ It is not an official leaderboard. It is a living notebook of things that worked
 | [Laguna S 2.1 DGX Spark Recipe](https://github.com/sojufx/Laguna-S-2.1-DGX-Spark-Recipe) | daily-driver long-context endpoint | 250K | stable memory profile, DFlash, prefix cache |
 | [Ling 3.0 Flash DGX Spark Recipe](https://github.com/sojufx/Ling-3.0-Flash-DGX-Spark-Recipe) | Ling 3.0 Flash on one Spark | 256K | vLLM Ling path, MTP=1, FP8 KV, prefix cache, thinking off |
 | [Qwen3.5 122B A10B DFlash DGX Spark Recipe](https://github.com/sojufx/Qwen3.5-122B-A10B-DFlash-DGX-Spark-Recipe) | large Qwen MoE / concise agent experiments | 128K | vLLM 0.26, NVFP4, MTP/DFlash notes, heavier than Laguna |
-| [Qwen3.6 35B NVFP4 DGX Spark Recipe](https://github.com/sojufx/Qwen3.6-35B-NVFP4-DGX-Spark-Recipe) | fast coding / agent workload | 262K | native vLLM 0.26, FP8 KV, DFlash K=7 |
+| [Nemotron 3.5 Lightning 30B-A3B NVFP4 DGX Spark Recipe](https://github.com/sojufx/Nemotron-3.5-Lightning-30B-A3B-NVFP4-DGX-Spark-Recipe) | NVIDIA long-context MoE testbed | 1M | vLLM 0.27, NVIDIA DSpark, FP8 KV, Marlin MoE, Mamba/FlashInfer path |
+| [Qwen3.6 35B NVFP4 DGX Spark Recipe](https://github.com/sojufx/Qwen3.6-35B-NVFP4-DGX-Spark-Recipe) | fast coding / agent workload | 262K | native vLLM 0.27, RedHatAI DSpark K=8, FP8 KV, Marlin MoE |
 
 ## Rules of thumb
 
