@@ -9,6 +9,7 @@ This is not a universal leaderboard. It is a practical “what would I actually 
 | DeepSeek V4 Flash IQ2XXS DS4 | huge MoE / tool-heavy reasoning experiments | 128K | slower raw decode, wild capability | keeper with guardrails |
 | Laguna S 2.1 NVFP4 | daily-driver long-context endpoint | 250K | steady | keeper |
 | Qwen3.6 35B-A3B NVFP4 | coding / agent throughput | 262K | fast aggregate | keeper |
+| Qwen3.8 27B NVFP4 | new Qwen coding / multimodal-capable agent experiments | 262K | moderate single stream, good C8 aggregate | promising experiment |
 | Qwen3.5 122B-A10B NVFP4 | large Qwen MoE / concise agent experiments | 128K | surprisingly usable but heavy | experiment |
 | Qwen Coder Next NVFP4 | coding experiments | varies | very fast for active size | tool/reasoning quirks need care |
 | Qwen3.6 27B NVFP4 | lightweight experiments | high | slower than hoped on our setup | not production |
@@ -38,6 +39,14 @@ Use Qwen3.6 35B-A3B NVFP4 if you care about aggregate throughput and coding-agen
 Recipe:
 
 https://github.com/sojufx/Qwen3.6-35B-NVFP4-DGX-Spark-Recipe
+
+### New Qwen 27B long-context experiment
+
+Use Qwen3.8 27B NVFP4 if you want to test the newer Qwen coding/agent family on one Spark with 262K context, built-in MTP, Qwen XML tools, and experimental multimodal support. It is not the fastest model on raw single-stream decode in our early run, but it is clean to serve and has a nice quality/context/simplicity shape.
+
+Recipe:
+
+https://github.com/sojufx/Qwen3.8-27B-NVFP4-DGX-Spark-Recipe
 
 ### Large Qwen MoE experiment
 

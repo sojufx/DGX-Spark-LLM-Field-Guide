@@ -188,6 +188,7 @@ My current practical view:
 
 - Laguna S 2.1 NVFP4: daily-driver long-context endpoint
 - Qwen3.6 35B-A3B NVFP4: fast coding / agent balance
+- Qwen3.8 27B NVFP4: newer Qwen coding/agent experiment with built-in MTP and 262K context
 - Qwen Coder Next NVFP4: very interesting coding model, but tool/reasoning behavior needs care
 - 100B+ models: possible to experiment with, not always worth it for daily service
 
@@ -202,6 +203,10 @@ https://github.com/sojufx/Laguna-S-2.1-DGX-Spark-Recipe
 Qwen3.6 35B NVFP4 on DGX Spark:
 
 https://github.com/sojufx/Qwen3.6-35B-NVFP4-DGX-Spark-Recipe
+
+Qwen3.8 27B NVFP4 on DGX Spark:
+
+https://github.com/sojufx/Qwen3.8-27B-NVFP4-DGX-Spark-Recipe
 
 Qwen3.5 122B-A10B DFlash on DGX Spark:
 
