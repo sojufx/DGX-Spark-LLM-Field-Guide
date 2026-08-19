@@ -32,6 +32,7 @@ It is not an official leaderboard. It is a living notebook of things that worked
 | [Qwen3.5 122B A10B DFlash DGX Spark Recipe](https://github.com/sojufx/Qwen3.5-122B-A10B-DFlash-DGX-Spark-Recipe) | large Qwen MoE / concise agent experiments | 128K | vLLM 0.26, NVFP4, MTP/DFlash notes, heavier than Laguna |
 | [Nemotron 3.5 Lightning 30B-A3B NVFP4 DGX Spark Recipe](https://github.com/sojufx/Nemotron-3.5-Lightning-30B-A3B-NVFP4-DGX-Spark-Recipe) | NVIDIA long-context MoE testbed | 1M | vLLM 0.27, NVIDIA DSpark, FP8 KV, Marlin MoE, Mamba/FlashInfer path |
 | [Qwen3.6 35B NVFP4 DGX Spark Recipe](https://github.com/sojufx/Qwen3.6-35B-NVFP4-DGX-Spark-Recipe) | fast coding / agent workload | 262K | native vLLM 0.27, RedHatAI DSpark K=8, FP8 KV, Marlin MoE |
+| [Ornith 1.5 35B-A3B NVFP4 DGX Spark Recipe](https://github.com/sojufx/Ornith-1.5-35B-A3B-NVFP4-DGX-Spark) | agentic coding / tool use / long-horizon work | 262K | native vLLM 0.27.2, NVFP4, Marlin MoE, FlashInfer, FP8 KV, qwen3_xml parser, medium thinking |
 
 ## Rules of thumb
 
